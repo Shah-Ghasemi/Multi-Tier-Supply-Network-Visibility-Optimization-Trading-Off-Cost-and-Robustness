@@ -114,23 +114,23 @@ Open a terminal (Command Prompt, PowerShell, Terminal) and run:
 git clone https://github.com/Shah-Ghasemi/multi-tier-visibility-resilience-tradeoff.git
  ```
 Then navigate into the project folder:
-
+```bash
 cd multi-tier-visibility-resilience-tradeoff
-
+```
 ### Step 2 – Install dependencies
 
 Make sure Python 3.8+ is installed, then execute:
-
+```bash
 pip install -r requirements.txt
-
+```
 ### Step 3 – Execute the scripts (in order)
 
 Run the three Python scripts from the terminal:
-
+```bash
 python network_generator.py
 python simulation_baseline.py
 python optimization_model.py
-
+```
 All generated figures (.png) and result files (.pkl) will appear inside the same folder.
 
 ## 📂 Repository Structure
