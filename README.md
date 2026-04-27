@@ -2,6 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![NetworkX](https://img.shields.io/badge/NetworkX-3.1-green?logo=networkx)](https://networkx.org/)
+[![Monte Carlo](https://img.shields.io/badge/Method-Monte%20Carlo-blueviolet)]()
 [![PuLP](https://img.shields.io/badge/Optimization-PuLP-orange)](https://pypi.org/project/PuLP/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: Ready](https://img.shields.io/badge/Status-Ready-brightgreen)]()
