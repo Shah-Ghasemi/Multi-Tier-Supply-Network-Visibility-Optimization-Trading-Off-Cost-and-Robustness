@@ -106,30 +106,45 @@ This miniature project directly mirrors the three aims of the KU Leuven PhD proj
 
 ## 🚀 How to Run
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Shah-Ghasemi/multi-tier-visibility-resilience-tradeoff.git
-   cd multi-tier-visibility-resilience-tradeoff
+### Step 1 – Clone the repository
 
-2. **Install dependencies:**
-   pip install -r requirements.txt
-3. **Run the three scripts in order:**
-   python network_generator.py
-   python simulation_baseline.py
-   python optimization_model.py
-Generated figures and .pkl files will appear in the same directory.
+Open a terminal (Command Prompt, PowerShell, Terminal) and run:
 
+```bash
+git clone https://github.com/Shah-Ghasemi/multi-tier-visibility-resilience-tradeoff.git
 
-##📂 Repository Structure
-├── network_generator.py            # Generate synthetic multi-tier supply network
-├── simulation_baseline.py          # Monte Carlo simulation for baseline risk
-├── optimization_model.py           # Benefit estimation + Knapsack optimization
-├── supply_network.png              # Visualisation of the generated network
-├── baseline_loss_distribution.png  # Distribution of supply losses (no audits)
-├── cost_robustness_tradeoff.png    # Budget vs. expected loss trade-off
-├── node_selection_frequency.png    # How often each node is selected
-├── requirements.txt                # Required Python packages
-└── README.md                       # This file
+Then navigate into the project folder:
+
+cd multi-tier-visibility-resilience-tradeoff
+
+### Step 2 – Install dependencies
+
+Make sure Python 3.8+ is installed, then execute:
+
+pip install -r requirements.txt
+
+### Step 3 – Execute the scripts (in order)
+
+Run the three Python scripts from the terminal:
+
+python network_generator.py
+python simulation_baseline.py
+python optimization_model.py
+
+All generated figures (.png) and result files (.pkl) will appear inside the same folder.
+
+## 📂 Repository Structure
+
+├── network_generator.py            # Generate synthetic multi-tier supply network  
+├── simulation_baseline.py          # Monte Carlo simulation for baseline risk  
+├── optimization_model.py           # Benefit estimation + Knapsack optimization  
+├── supply_network.png              # Visualisation of the generated network  
+├── baseline_loss_distribution.png  # Distribution of supply losses (no audits)  
+├── cost_robustness_tradeoff.png    # Budget vs. expected loss trade-off  
+├── node_selection_frequency.png    # How often each node is selected  
+├── requirements.txt                # Required Python packages  
+└── README.md                       # This file  
+
 
 📝 Author  
 Shahrokh Ghasemi Dehcheshmeh
