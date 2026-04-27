@@ -112,7 +112,7 @@ Open a terminal (Command Prompt, PowerShell, Terminal) and run:
 
 ```bash
 git clone https://github.com/Shah-Ghasemi/multi-tier-visibility-resilience-tradeoff.git
-
+ ```
 Then navigate into the project folder:
 
 cd multi-tier-visibility-resilience-tradeoff
