@@ -138,5 +138,5 @@ Email: shahrokh.gsmi@gmail.com
 
 Developed as a preparatory exercise for the 2026 PhD application on supply chain visibility and resilience at KU Leuven.
 
-📄 License
+📄 License  
 This project is licensed under the MIT License – see the LICENSE file for details.
